@@ -27,7 +27,7 @@
 	      				본 강의는 이러한 연구 환경의 변화에 능동적으로 대응하고 주도하기 위해 디지털역사학의 세계로 학생들을 안내한다.
 	      				디지털역사학은 디지털 기술을 활용하여 거시적이고 시계열적인 복잡계의 역사학적 사실을 탐구하는 역사학 기반 융합학문이다.
 	      			</td>
-	      			<td>Prerequisite Courses</td>
+	      			<td class="modal_pre_title">Prerequisite Courses</td>
 	      		</tr>
 	      		<tr>
 	      			<td class="modal_pre"></td>
@@ -43,24 +43,28 @@
 	    </div>
         <div class="area_section">
             <table class="area_table">
+            
                 <tr>
                     <th class="area_title"><span>TRACK</span></th>
                 </tr>
+                
                 <tr>
                     <td class="gi_wrap">
-                        <img id="gi_but" src="${pageContext.request.contextPath}/resources/img/areaIcon_game.png">
+                        <img id="gi_but" src="${pageContext.request.contextPath}/resources/img/areaIcon_IM.png">
                     </td>
                 </tr>
                 <tr>
                     <td class="cd_wrap">
-                        <img id="cd_but" src="${pageContext.request.contextPath}/resources/img/areaIcon_dd.png">
+                        <img id="cd_but" src="${pageContext.request.contextPath}/resources/img/areaIcon_G.png">
                     </td>
                 </tr>
                 <tr>
                     <td class="de_wrap">
-                        <img id="de_but" src="${pageContext.request.contextPath}/resources/img/areaIcon_df.png">
+                        <img id="de_but" src="${pageContext.request.contextPath}/resources/img/areaIcon_DC.png">
                     </td>
                 </tr>
+                <tr><td></td></tr>
+                <tr><td></td></tr>
             </table>
         </div>
         <div class="cil_table_section">
@@ -90,80 +94,84 @@
                     <td><a id="tr3td7"></a></td>
                     <td><a id="tr3td8"></a></td>
                 </tr>
+                
+                
+ 				<!-- 한 줄 내림 한 줄 내림 -->               
+                
                 <tr>
                     <td colspan="2"><span id="tr4td1" class="colspan2">언어강독(한문,불어,중국어,일본어)<br>(1,2학기 중 선택 이수)<a id="tr4td2"></a></span></td>
-                    <td><div class="mandatory_cont"><span id="tr4td3">영문사료감독</span><div class="mandatory"><a>M</a></div></div></td>
-                    <td><span id="tr4td4">자기주도<br>진로선택</span></td>
-                    <td><span id="tr4td5">고고학개론</span></td>
+                    <td><a id=tr4td3></a></td>
+                    <td><a id="tr4td4"></a></td>
+                    <td><a id=tr4td5></a></td>
                     <td><a id="tr4td6"></a></td>
-                    <td colspan="2"><div class="mandatory_cont"><span id="tr4td7" class="colspan2">산학협력전공실습1/2<a id="tr4td8"></a></span><div class="mandatory"><a>C</a></div></div></td>
+                    <td><a id="tr4td7"></a></td>
+                    <td><a id="tr4td8"></a></td>
                 </tr>
                 <tr>
-                    <td><span id="tr5td1">아주인성</span></td>
-                    <td><span id="tr5td2">아주희망</span></td>
-                    <td><span id="tr5td3">신화와<br>디지털 콘텐츠</span></td>
-                    <td><div class="mandatory_cont"><span id="tr5td4">한문사료감독</span><div class="mandatory"><a>M</a></div></div></td>
-                    <td><span id="tr5td5">박물관학개론</span></td>
-                    <td><div class="mandatory_cont"><span id="tr5td6">역사융합세미나<br>(캡스톤디자인)</span><div class="mandatory"><a>M</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr5td7">디지털역사학입문</span><div class="mandatory"><a>C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr5td8">디지털역사학연구<br>방법론</span><div class="mandatory"><a>C</a></div></div></td>
+                    <td><a id="tr5td1"></a></td>
+                    <td><a id="tr5td2"></a></td>
+                    <td><div class="mandatory_cont"><span id="tr5td3" class="mandatory_span">영문사료감독</span><div class="mandatory"><a>M</a></div></div></td>
+                    <td><span id="tr5td4">자기주도<br>진로선택</span></td>
+                    <td><span id="tr5td5">고고학개론</span></td>
+                    <td><a id="tr5td6"></a></td>
+                    <td colspan="2"><span id="tr5td7" class="colspan2">산학협력전공실습1/2<a id="tr5td8"></a></span></td>
                 </tr>
                 <tr>
-                    <td><span id="tr6td1">영어2</span></td>
-                    <td><span id="tr6td2">영어1</span></td>
-                    <td><span id="tr6td3">영상매체와영상</span></td>
-                    <td><span id="tr6td4">한국근세사</span></td>
-                    <td><span id="tr6td5">중국근현대사</span></td>
-                    <td><span id="tr6td6">아메리카사</span></td>
-                    <td><span id="tr6td7">문화로역사읽기</span></td>
-                    <td><span id="tr6td8">일본세미나</span></td>
+                    <td><span id="tr6td1">아주인성</span></td>
+                    <td><span id="tr6td2">아주희망</span></td>
+                    <td><span id="tr6td3">신화와<br>디지털 콘텐츠</span></td>
+                    <td><div class="mandatory_cont"><span id="tr6td4" class="mandatory_span">한문사료감독</span><div class="mandatory"><a>M</a></div></div></td>
+                    <td><span id="tr6td5">박물관학개론</span></td>
+                    <td><div class="mandatory_cont"><span id="tr6td6" class="mandatory_span">역사융합세미나<br>(캡스톤디자인)</span><div class="mandatory"><a>M</a></div></div></td>
+                    <td><div class="mandatory_cont"><span id="tr6td7">디지털역사학입문</span><div class="mandatory"><a>C</a></div></div></td>
+                    <td><div class="mandatory_cont"><span id="tr6td8">디지털역사학연구<br>방법론</span><div class="mandatory"><a>C</a></div></div></td>
                 </tr>
                 <tr>
-                    <td><span id="tr7td1">글쓰기</span></td>
-                    <td><div class="mandatory_cont"><span id="tr7td2">역사학으로의 초대</span><div class="mandatory"><a>M</a></div></div></td>
-                    <td><span id="tr7td3">한국고증세사</span></td>
-                    <td><span id="tr7td4">서양근세사</span></td>
-                    <td><span id="tr7td5">일본근현대사</span></td>
-                    <td><span id="tr7td6">디지털역사학<br>연구방법론</span></td>
-                    <td><a id="tr7td7"></a></td>
-                    <td><span id="tr7td8">한중일국제관계사</span></td>
+                    <td><span id="tr7td1">영어2</span></td>
+                    <td><span id="tr7td2">영어1</span></td>
+                    <td><span id="tr7td3">영상매체와역사</span></td>
+                    <td><span id="tr7td4">한국근세사</span></td>
+                    <td><span id="tr7td5">중국근현대사</span></td>
+                    <td><span id="tr7td6">아메리카사</span></td>
+                    <td><span id="tr7td7">문화로역사읽기</span></td>
+                    <td><span id="tr7td8">일본세미나</span></td>
                 </tr>
                 <tr>
-                    <td><span id="tr8td1">한국사입문</span></td>
-                    <td><span id="tr8td2">아시아사입문</span></td>
-                    <td><span id="tr8td3">서양고증세사</span></td>
-                    <td><span id="tr8td4">유럽전통과<br>문화유산</span></td>
-                    <td><span id="tr8td5">한국근현대사</span></td>
-                    <td><div class="mandatory_cont"><span id="tr8td6">디지털역사학<br>데이터분석연습</span><div class="mandatory"><a>C</a></div></div></td>
+                    <td><span id="tr8td1">글쓰기</span></td>
+                    <td><div class="mandatory_cont"><span id="tr8td2" class="mandatory_span">역사학으로의 초대</span><div class="mandatory"><a>M</a></div></div></td>
+                    <td><span id="tr8td3">한국고중세사</span></td>
+                    <td><span id="tr8td4">서양근세사</span></td>
+                    <td><span id="tr8td5">일본근현대사</span></td>
+                    <td><span id="tr8td6">디지털역사학<br>연구방법론</span></td>
                     <td><a id="tr8td7"></a></td>
-                    <td><a id="tr8td8"></a></td>
+                    <td><span id="tr8td8">한중일국제관계사</span></td>
                 </tr>
                 <tr>
-                    <td><span id="tr9td1">서양사입문</span></td>
-                    <td><span id="tr9td2">역사와인물</span></td>
-                    <td><span id="tr9td3">동양고증세사</span></td>
-                    <td><span id="tr9td4">아시아의역사<br>문화콘텐츠</span></td>
-                    <td><span id="tr9td5">서양근현대사</span></td>
-                    <td><a id="tr9td6"></a></td>
+                    <td><span id="tr9td1">한국사입문</span></td>
+                    <td><span id="tr9td2">아시아사입문</span></td>
+                    <td><span id="tr9td3">서양고중세사</span></td>
+                    <td><span id="tr9td4">유럽전통과<br>문화유산</span></td>
+                    <td><span id="tr9td5">한국근현대사</span></td>
+                    <td><span id="tr9td6">디지털역사학<br>데이터분석연습</span></td>
                     <td><a id="tr9td7"></a></td>
                     <td><a id="tr9td8"></a></td>
                 </tr>
                 <tr>
-                    <td><span id="tr10td1">문화콘텐츠학입문</span></td>
-                    <td><a id="tr10td2"></a></td>
-                    <td><a id="tr10td3"></a></td>
-                    <td><span id="tr10td4">유족민족의<br>역사와문화</span></td>
-                    <td><span id="tr10td5">중국사상과예술</span></td>
+                    <td><span id="tr10td1">서양사입문</span></td>
+                    <td><span id="tr10td2">역사와인물</span></td>
+                    <td><span id="tr10td3">동양고중세사</span></td>
+                    <td><span id="tr10td4">아시아의역사<br>문화콘텐츠</span></td>
+                    <td><span id="tr10td5">서양근현대사</span></td>
                     <td><a id="tr10td6"></a></td>
                     <td><a id="tr10td7"></a></td>
                     <td><a id="tr10td8"></a></td>
                 </tr>
                 <tr>
-                    <td><a id="tr11td1"></a></td>
+                    <td><span id="tr11td1">문화콘텐츠학입문</span></td>
                     <td><a id="tr11td2"></a></td>
                     <td><a id="tr11td3"></a></td>
-                    <td><a id="tr11td4"></a></td>
-                    <td><span id="tr11td5">일본사상과예술</span></td>
+                    <td><span id="tr11td4">유족민족의<br>역사와문화</span></td>
+                    <td><span id="tr11td5">중국사상과예술</span></td>
                     <td><a id="tr11td6"></a></td>
                     <td><a id="tr11td7"></a></td>
                     <td><a id="tr11td8"></a></td>
@@ -173,66 +181,56 @@
                     <td><a id="tr12td2"></a></td>
                     <td><a id="tr12td3"></a></td>
                     <td><a id="tr12td4"></a></td>
-                    <td><div class="mandatory_cont"><span id="tr12td5">디지털역사학입문</span><div class="mandatory"><a>C</a></div></div></td>
+                    <td><span id="tr12td5">일본사상과예술</span></td>
                     <td><a id="tr12td6"></a></td>
                     <td><a id="tr12td7"></a></td>
                     <td><a id="tr12td8"></a></td>
+                </tr>
+                <tr>
+                    <td><a id="tr13td1"></a></td>
+                    <td><a id="tr13td2"></a></td>
+                    <td><a id="tr13td3"></a></td>
+                    <td><a id="tr13td4"></a></td>
+                    <td><span id="tr13td5">디지털역사학입문</span></td>
+                    <td><a id="tr13td6"></a></td>
+                    <td><a id="tr13td7"></a></td>
+                    <td><a id="tr13td8"></a></td>
                 </tr>
             </table>
         </div>
         <div class="jobs_section">
             <table class="jobs_table">
                 <tr>
-                    <th class="jobs_title"><span>JOBS</span></th>
+                    <th class="jobs_title"><span>CAREER PATH</span></th>
                 </tr>
                 <tr>
-                    <td class="gi_jobs">게임기획자</td>
+                    <td class="gi_jobs"><div id="gi_jobs">일반대학원<br>(교수,연구원,학예사)</div></td>
                 </tr>
                 <tr>
-                    <td class="gi_jobs">게임프로그래머</td>
+                    <td class="gi_jobs"><div id="gi_jobs2">교육 대학원(교사)</div></td>
                 </tr>
                 <tr>
-                    <td class="gi_jobs">게임그래픽디자이너</td>
+                    <td class="gi_jobs"><div id="gi_jobs3">지역 문화유산 전문가<br>(문화원)</div></td>
                 </tr>
                 <tr>
-                    <td class="gi_jobs">스마트문화앱콘텐츠제작</td>
+                    <td class="gi_jobs"><div id="gi_jobs4">해외역사전문가</div></td>
                 </tr>
                 <tr>
-                    <td class="cd_jobs">시각디자이너</td>
+                    <td class="cd_jobs"><div id="cd_jobs">역사문화콘텐츠</div></td>
                 </tr>
                 <tr>
-                    <td class="cd_jobs">서비스경험디자이너</td>
+                    <td class="cd_jobs"><div id="cd_jobs2">인문데이터분석</div></td>
                 </tr>
                 <tr>
-                    <td class="cd_jobs">디지털디자이너</td>
+                    <td class="cd_jobs"><div id="cd_jobs3">역사문화프로그램 기획자</div></td>
                 </tr>
                 <tr>
-                    <td class="de_jobs">영상연출가</td>
+                    <td class="de_jobs"><div id="de_jobs">공무원,공공정책</div></td>
                 </tr>
                 <tr>
-                    <td class="de_jobs">제작PD</td>
+                    <td class="vc_jobs"><div id="vc_jobs">신문/방송 미디어 및<br>일반 기업</div></td>
                 </tr>
-                <tr>
-                    <td class="de_jobs">브랜드디자이너(OAP)</td>
-                </tr>
-                <tr>
-                    <td class="de_jobs">CG아티스트</td>
-                </tr>
-                <tr>
-                    <td class="de_jobs">모션그래픽디자이너</td>
-                </tr>
-                <tr>
-                    <td class="de_jobs">사운드슈퍼바이저</td>
-                </tr>
-                <tr>
-                    <td class="vc_jobs">3D 컴퓨터그래픽스</td>
-                </tr>
-                <tr>
-                    <td class="vc_jobs">영상테크니컬디렉터</td>
-                </tr>
-                <tr>
-                    <td class="vc_jobs">게임클라이언트개발자</td>
-                </tr>
+                <tr><td></td></tr>
             </table>
         </div>
         <div>

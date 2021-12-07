@@ -14,8 +14,8 @@ body,html{
 
 .main_contents{
     display:flex;
-    height:90%;
-    min-width: 1200px;
+    height:92%;
+    /*min-width: 1200px;*/
     overflow-x:auto;
 }
 
@@ -24,7 +24,7 @@ body,html{
 */
 .cil_table_section{
     height : 100%;
-    background-color : #f7f7f7;
+    background-color :#f7f7f7;
     min-width:900px;
     min-height:100%;
    background:url(
@@ -41,10 +41,10 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAAXNSR0IArs
     border-right : solid 2px rgb(228, 228, 228);
     border-bottom : none;
     width : 140px;
-    height : 38px;
+    height : 50px;
     text-align : center;
-    font-size : 10px;
-    padding : 5px 10px;
+    font-size : 11px;
+    padding : 3px 10px;
     color:#292828;
 }
 
@@ -123,14 +123,14 @@ span{
 
 .area_section table td
 {
-    height:70px;
-    padding-top:15px;
+    height:50px;
+    padding-top:10px;
 }
 
 .jobs_section table td
 {
-    height:30px;
-    padding-top:12px;
+    height:50px;
+    padding-top:5px;
     font-size:13px;
     font-weight:700;
 }
@@ -139,6 +139,12 @@ span{
 {
     cursor:pointer;
 }
+
+.title:hover
+{
+    cursor:pointer;
+}
+
 
 .area_table img{
     width:130px;
@@ -149,23 +155,19 @@ span{
 }
 
 .gi_jobs{
-    color:#4da345;
+    color:#B1BB50;
 }
 
 .cd_jobs{
-    color:#db8a3f;
+    color:#F4B183;
 }
 
 .de_jobs{
-    color:rgb(191, 122, 231);
+    color:#F6B90E;
 }
 
 .vc_jobs{
-    color:#a1e1f5;
-}
-
-.md_jobs{
-    color:#ff8888;
+    color:#5195D3;
 }
 
 /*Hightlight*/
@@ -177,20 +179,27 @@ span{
 	width:20px; 
 	height:20px;
 	border-radius:10px;
+	border : solid 1px rgb(228, 228, 228);
 } 
 
 .mandatory a{
 	font-weight:bold;
+}
+.mandatory_span{
+	background-color:#d0d0d0;
+}
+.mandatory_cont{
+	padding:0px;
+    height :38px;
+	margin:0px;
 }
 /*Modal*/
 .modal {
         position: absolute;
         top: 0;
         left: 0;
-
         width: 100%;
         height: 100%;
-
         display: none;
 		z-index : 3;
         background-color: rgba(0, 0, 0, 0.4);
@@ -231,20 +240,28 @@ span{
       }
 
 	 .modal_cont{
-      	width:70%;
+      	width:60%;
       	line-height:180%;
+      	padding:8px;
+      	overflow:auto;
+      	border-right : solid 1px #C5C4C3;
+      }
+      .modal_pre_title{
+      	font-weight : bold;
       	padding:8px;
       }
       .modal_pre{
-      	width:30%;
+      	width:40%;
       	padding:8px;
+      	border-bottom : solid 1px #C5C4C3;
       }
       .modal_engYN{
-      	width:30%;
+      	width:40%;
       	padding:8px;
+      	border-bottom : solid 1px #C5C4C3;
       }
       .modal_publicYN{
-      	width:30%;
+      	width:40%;
       	padding:8px;
       }
 
