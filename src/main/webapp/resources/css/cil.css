@@ -13,7 +13,8 @@ body,html{
 }
 
 .main_contents{
-    display:flex;
+    display:flex;	
+    width:100%;
     height:92%;
     /*min-width: 1200px;*/
     overflow-x:auto;
@@ -23,6 +24,7 @@ body,html{
     main contents section
 */
 .cil_table_section{
+	width:80%;
     height : 100%;
     background-color :#f7f7f7;
     min-width:900px;
@@ -34,14 +36,16 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAAXNSR0IArs
 
 .cil_table_section table{
     border-collapse:collapse;
+    width:100%;
+    height:100%;
 }
 
 .cil_table_section table td,
 .cil_table_section table th{
-    border-right : solid 2px rgb(228, 228, 228);
+    border-right : solid 1px rgb(228, 228, 228);
     border-bottom : none;
-    width : 140px;
-    height : 50px;
+    width : 12.5%;
+    height : 8.3%;
     text-align : center;
     font-size : 11px;
     padding : 3px 10px;
@@ -84,6 +88,7 @@ span{
 */
 .area_section,
 .jobs_section{
+	width:10%;
     height:100%;
     margin:0px;
     padding-top:0px;
@@ -182,6 +187,18 @@ span{
 	border : solid 1px rgb(228, 228, 228);
 } 
 
+.cs{
+	background:#c7c7c7; 
+	position:relative; 
+	top:-40px;
+	right:5px;
+	width:20px; 
+	height:20px;
+	border-radius:10px;
+	border : solid 1px rgb(228, 228, 228);
+	display:none;
+} 
+
 .mandatory a{
 	font-weight:bold;
 }
@@ -228,7 +245,7 @@ span{
       
       .modal_table{
       	width:100%;
-      	height:100%;
+      	height:300px;
       	font-family : 'Noto Sans KR', sans-serif;
         font-size:12px;
       }
@@ -240,10 +257,11 @@ span{
       }
 
 	 .modal_cont{
-      	width:60%;
+      	width:100%;
       	line-height:180%;
       	padding:8px;
-      	overflow:auto;
+      	height:250px;
+      	overflow-y:auto;
       	border-right : solid 1px #C5C4C3;
       }
       .modal_pre_title{
@@ -263,5 +281,59 @@ span{
       .modal_publicYN{
       	width:40%;
       	padding:8px;
-      }
-
+      }      
+      
+#cs_tr2td1.show { display:block; }
+#cs_tr3td1.show { display:block; }
+#cs_tr4td1.show{ display:block; }
+#cs_tr6td1.show{ display:block; }
+#cs_tr7td1.show{ display:block; }
+#cs_tr8td1.show{ display:block; }
+#cs_tr9td1.show{ display:block; }
+#cs_tr10td1.show{ display:block; }
+#cs_tr11td1.show{ display:block; }
+#cs_tr6td2.show{ display:block; }
+#cs_tr7td2.show{ display:block; }
+#cs_tr8td2.show{ display:block; }
+#cs_tr9td2.show{ display:block; }
+#cs_tr10td2.show{ display:block; }
+#cs_tr2td3.show{ display:block; }
+#cs_tr3td3.show{ display:block; }
+#cs_tr5td3.show{ display:block; }
+#cs_tr6td3.show{ display:block; }
+#cs_tr7td3.show{ display:block; }
+#cs_tr8td3.show{ display:block; }
+#cs_tr9td3.show{ display:block; }
+#cs_tr10td3.show{ display:block; }
+#cs_tr5td4.show{ display:block; }
+#cs_tr6td4.show{ display:block; }
+#cs_tr7td4.show{ display:block; }
+#cs_tr8td4.show{ display:block; }
+#cs_tr9td4.show{ display:block; }
+#cs_tr10td4.show{ display:block; }
+#cs_tr11td4.show{ display:block; }
+#cs_tr2td5.show{ display:block; }
+#cs_tr4td5.show{ display:block; }
+#cs_tr5td5.show{ display:block; }
+#cs_tr6td5.show{ display:block; }
+#cs_tr7td5.show{ display:block; }
+#cs_tr8td5.show{ display:block; }
+#cs_tr9td5.show{ display:block; }
+#cs_tr10td5.show{ display:block; }
+#cs_tr11td5.show{ display:block; }
+#cs_tr12td5.show{ display:block; }
+#cs_tr13td5.show { display:block; }
+#cs_tr6td6.show{ display:block; }
+#cs_tr7td6.show{ display:block; }
+#cs_tr8td6.show { display:block; }
+#cs_tr9td6.show{ display:block; }
+#cs_tr5td7.show{ display:block; }
+#cs_tr7td7.show{ display:block; }
+#cs_tr6td7.show{ display:block; }
+#cs_tr6td8.show{ display:block; }
+#cs_tr7td8.show{ display:block; }
+#cs_tr8td8.show{ display:block; }
+#cs_tr13td5.show{ display:block; }     
+#cs_tr5td6.show{ display:block; }  
+#cs_tr4td5.show{ display:block; }  
+#cs_tr4td6.show{ display:block; }  
