@@ -95,6 +95,11 @@ function giClick(){
 
     reset_color();
 
+	var c_mark = document.querySelector('.c_mark');
+	var s_mark = document.querySelector('.s_mark');
+	c_mark.style.background = "#FADC86";
+	s_mark.style.background = "#FFF2CC";
+
     var gi_core = [ 'tr5td5', 'tr6td5', 'tr7td4',
                  'tr7td6', 'tr8td3', 'tr8td4',
                  'tr9td1', 'tr9td2', 'tr9td3',
@@ -106,8 +111,8 @@ function giClick(){
                  'tr8td5', 'tr8td8', 'tr10td1', 'tr11td4','tr9td4','tr10td5','tr11td5','tr5td6','tr6td6'];
     
 
-    if(gi_flag>0)
-    {
+    //if(gi_flag>0)
+    //{
         for(i=0;i<gi_core.length;i++)
         {
             ch_td = document.getElementById(gi_core[i]);
@@ -129,11 +134,11 @@ function giClick(){
 			cs.style.background = "#FFF2CC";
 			cs_text.innerText="S";
         }
-    }
-    if(gi_flag<0)
+    //}
+    /*if(gi_flag<0)
     {
         reset_color();
-    }
+    }*/
     gi_flag*=-1;
 
     cd_flag=1;
@@ -147,6 +152,11 @@ function giClick(){
 function cdClick(){
     
     reset_color();
+
+	var c_mark = document.querySelector('.c_mark');
+	var s_mark = document.querySelector('.s_mark');
+	c_mark.style.background = "#B5D999";
+	s_mark.style.background = "#E2EED9";
 
     var cd_core = [ 'tr4td1', 'tr7td1', 'tr7td2',
                  'tr7td7', 'tr9td4','tr10td4','tr11td4',
@@ -196,6 +206,12 @@ function cdClick(){
 
 function deClick(){
     reset_color();
+
+	var c_mark = document.querySelector('.c_mark');
+	var s_mark = document.querySelector('.s_mark');
+	c_mark.style.background = "#ABCAE9";
+	s_mark.style.background = "#DEEBF6";
+
     var core = [ 'tr13td5','tr8td6', 'tr9td6','tr10td2','tr11td1','tr6td3','tr7td3','tr6td7','tr5td7','tr2td5','tr6td8'
 				,'tr9td4', 'tr10td4', 'tr11td4', 'tr3td1', 'tr3td3','tr4td6'];
     var support = [ 'tr2td1','tr4td1', 'tr11td1',
@@ -230,8 +246,8 @@ function deClick(){
     {
         reset_color();
     }
-    de_flag*=-1;
-
+    
+	de_flag=1;
     gi_flag=1;
     cd_flag=1;
 	gij_flag=1;
@@ -242,6 +258,12 @@ function deClick(){
 
 function giJobsClick(){
     reset_color();
+
+	var c_mark = document.querySelector('.c_mark');
+	var s_mark = document.querySelector('.s_mark');
+	c_mark.style.background = "#B1BB50";
+	s_mark.style.background = "#B1BB50";
+	
     var core = ['tr2td5','tr9td1','tr10td1','tr9td2','tr10td2','tr8td3','tr9td3','tr10td3',
 				'tr7td4','tr8td4','tr9td5','tr10td5','tr5td5','tr6td5','tr7td6','tr7td7','tr5td6'];
     var support = ['tr2td1','tr2td3','tr6td1','tr7td1','tr8td1','tr6td2',
@@ -285,6 +307,12 @@ function giJobsClick(){
 
 function cdJobsClick(){
     reset_color();
+
+	var c_mark = document.querySelector('.c_mark');
+	var s_mark = document.querySelector('.s_mark');
+	c_mark.style.background = "#F4B183";
+	s_mark.style.background = "#F4B183";
+	
     var core = ['tr3td1','tr11td1',
 'tr3td3','tr9td4','tr10td4','tr11td4','tr8td3','tr6td3','tr7td3'
 ,'tr13td5','tr9td5','tr8td6','tr9td6','tr2td5','tr7td4','tr4td6','tr6td7','tr5td7'];
@@ -337,6 +365,12 @@ function cdJobsClick(){
 
 function deJobsClick(){
     reset_color();
+
+	var c_mark = document.querySelector('.c_mark');
+	var s_mark = document.querySelector('.s_mark');
+	c_mark.style.background = "#F6B90E";
+	s_mark.style.background = "#F6B90E";
+
     var core = ['tr9td1','tr8td3','tr7td4','tr5td5','tr6td5','tr9td5','tr8td8'];
     var support = ['tr2td1','tr7td1','tr8td1','tr10td1','tr6td2',
 				'tr7td2','tr9td2','tr2td3','tr9td3','tr10td3','tr8td4',
@@ -380,6 +414,12 @@ function deJobsClick(){
 
 function viJobsClick(){
     reset_color();
+
+	var c_mark = document.querySelector('.c_mark');
+	var s_mark = document.querySelector('.s_mark');
+	c_mark.style.background = "#5195D3";
+	s_mark.style.background = "#5195D3";
+	
     var core = ['tr3td1','tr3td3','tr6td3','tr7td3','tr13td5',
 				'tr8td6','tr9td6','tr2td5','tr5td7','tr6td7','tr4td6'];
     var support = ['tr2td1','tr9td1','tr10td1','tr11td1','tr9td2',

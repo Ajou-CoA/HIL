@@ -103,100 +103,100 @@
  				<!-- 한 줄 내림 한 줄 내림 -->               
                 
                 <tr>
-                    <td colspan="2"><div class="mandatory_cont"><span id="tr4td1" class="colspan2">언어강독(한문,불어,중국어,일본어)<br>(1,2학기 중 선택 이수)<a id="tr4td2"></a></span><div class="cs" id="cs_tr4td1"><a class="cs_txt_tr4td1">C</a></div></div></td>
+                    <td colspan="2" class="addLine"><div class="mandatory_cont"><span id="tr4td1" class="colspan2">언어강독(한문,불어,중국어,일본어)<br>(1,2학기 중 선택 이수)<a id="tr4td2"></a></span><div class="cs" id="cs_tr4td1"><a class="cs_txt_tr4td1">C</a></div></div></td>
                     <td><a id=tr4td3></a></td>
-                    <td><a id="tr4td4"></a></td>
-                    <td><div class="mandatory_cont"><span id="tr4td5" class="mandatory_span">역사융합세미나<br>(캡스톤디자인)</span><div class="mandatory"><a>M</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr4td6">역사융합세미나<br>(캡스톤디자인)</span><div class="cs" id="cs_tr4td6"><a class="cs_txt_tr4td6">C</a></div></div></td>
+                    <td class="addLine"><a id="tr4td4"></a></td>
+                    <td><div class="mandatory_cont"><span id="tr4td5" class="mandatory_span">역사융합세미나1<br>(캡스톤디자인)</span><div class="mandatory"><a>M</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr4td6">역사융합세미나2<br>(캡스톤디자인)</span><div class="cs" id="cs_tr4td6"><a class="cs_txt_tr4td6">C</a></div></div></td>
                     <td><a id="tr4td7"></a></td>
                     <td><a id="tr4td8"></a></td>
                 </tr>
                 <tr>
                     <td><a id="tr5td1"></a></td>
-                    <td><a id="tr5td2"></a></td>
+                    <td class="addLine"><a id="tr5td2"></a></td>
                     <td><div class="mandatory_cont"><span id="tr5td3" class="mandatory_span">영문사료감독</span><div class="mandatory"><a>M</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr5td4">자기주도<br>진로선택</span><div class="cs" id="cs_tr5td4"><a class="cs_txt_tr5td4">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr5td4">자기주도<br>진로선택</span><div class="cs" id="cs_tr5td4"><a class="cs_txt_tr5td4">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr5td5">고고학개론</span><div class="cs" id="cs_tr5td5"><a class="cs_txt_tr5td5">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr5td6">중국근현대사</span><div class="cs" id="cs_tr5td6"><a class="cs_txt_tr5td6">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr5td6">중국근현대사</span><div class="cs" id="cs_tr5td6"><a class="cs_txt_tr5td6">C</a></div></div></td>
                     <td colspan="2"><div class="mandatory_cont"><span id="tr5td7" class="colspan2">산학협력전공실습1/2<a id="tr5td8"></a></span><div class="cs" id="cs_tr5td7"><a class="cs_txt_tr5td7">C</a></div></div></td>
                 </tr>
                 <tr>
                     <td><div class="mandatory_cont"><span id="tr6td1">아주인성</span><div class="cs" id="cs_tr6td1"><a class="cs_txt_tr6td1">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr6td2">아주희망</span><div class="cs" id="cs_tr6td2"><a class="cs_txt_tr6td2">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr6td2">아주희망</span><div class="cs" id="cs_tr6td2"><a class="cs_txt_tr6td2">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr6td3">신화와<br>디지털 콘텐츠</span><div class="cs" id="cs_tr6td3"><a class="cs_txt_tr6td3">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr6td4" class="mandatory_span">한문사료감독</span><div class="mandatory"><a>M</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr6td4" class="mandatory_span">한문사료감독</span><div class="mandatory"><a>M</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr6td5">박물관학개론</span><div class="cs" id="cs_tr6td5"><a class="cs_txt_tr6td5">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr6td6">일본근현대사</span><div class="cs" id="cs_tr6td6"><a class="cs_txt_tr6td6">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr6td6">일본근현대사</span><div class="cs" id="cs_tr6td6"><a class="cs_txt_tr6td6">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr6td7">디지털역사학입문</span><div class="cs" id="cs_tr6td7"><a class="cs_txt_tr6td7">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr6td8">디지털역사학연구<br>방법론</span><div class="cs" id="cs_tr6td8"><a class="cs_txt_tr6td8">C</a></div></div></td>
                 </tr>
                 <tr>
                     <td><div class="mandatory_cont"><span id="tr7td1">영어2</span><div class="cs" id="cs_tr7td1"><a class="cs_txt_tr7td1">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr7td2">영어1</span><div class="cs" id="cs_tr7td2"><a class="cs_txt_tr7td2">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr7td2">영어1</span><div class="cs" id="cs_tr7td2"><a class="cs_txt_tr7td2">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr7td3">영상매체와역사</span><div class="cs" id="cs_tr7td3"><a class="cs_txt_tr7td3">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr7td4">한국근세사</span><div class="cs" id="cs_tr7td4"><a class="cs_txt_tr7td4">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr7td4">한국근세사</span><div class="cs" id="cs_tr7td4"><a class="cs_txt_tr7td4">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr7td5">중국근현대사</span><div class="cs" id="cs_tr7td5"><a class="cs_txt_tr7td5">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr7td6">아메리카사</span><div class="cs" id="cs_tr7td6"><a class="cs_txt_tr7td6">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr7td6">아메리카사</span><div class="cs" id="cs_tr7td6"><a class="cs_txt_tr7td6">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr7td7">문화로역사읽기</span><div class="cs" id="cs_tr7td7"><a class="cs_txt_tr7td7">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr7td8">일본세미나</span><div class="cs" id="cs_tr7td8"><a class="cs_txt_tr7td8">C</a></div></div></td>
                 </tr>
                 <tr>
                     <td><div class="mandatory_cont"><span id="tr8td1">글쓰기</span><div class="cs" id="cs_tr8td1"><a class="cs_txt_tr8td1">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr8td2" class="mandatory_span">역사학으로의 초대</span><div class="mandatory"><a>M</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr8td2" class="mandatory_span">역사학으로의 초대</span><div class="mandatory"><a>M</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr8td3">한국고중세사</span><div class="cs" id="cs_tr8td3"><a class="cs_txt_tr8td3">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr8td4">서양근세사</span><div class="cs" id="cs_tr8td4"><a class="cs_txt_tr8td4">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr8td4">서양근세사</span><div class="cs" id="cs_tr8td4"><a class="cs_txt_tr8td4">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr8td5">일본근현대사</span><div class="cs" id="cs_tr8td5"><a class="cs_txt_tr8td5">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr8td6">디지털역사학<br>연구방법론</span><div class="cs" id="cs_tr8td6"><a class="cs_txt_tr8td6">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr8td6">디지털역사학<br>연구방법론</span><div class="cs" id="cs_tr8td6"><a class="cs_txt_tr8td6">C</a></div></div></td>
                     <td><a id="tr8td7"></a></td>
                     <td><div class="mandatory_cont"><span id="tr8td8">한중일국제관계사</span><div class="cs" id="cs_tr8td8"><a class="cs_txt_tr8td8">C</a></div></div></td>
                 </tr>
                 <tr>
                     <td><div class="mandatory_cont"><span id="tr9td1">한국사입문</span><div class="cs" id="cs_tr9td1"><a class="cs_txt_tr9td1">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr9td2">아시아사입문</span><div class="cs" id="cs_tr9td2"><a class="cs_txt_tr9td2">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr9td2">아시아사입문</span><div class="cs" id="cs_tr9td2"><a class="cs_txt_tr9td2">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr9td3">서양고중세사</span><div class="cs" id="cs_tr9td3"><a class="cs_txt_tr9td3">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr9td4">유럽전통과<br>문화유산</span><div class="cs" id="cs_tr9td4"><a class="cs_txt_tr9td4">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr9td4">유럽전통과<br>문화유산</span><div class="cs" id="cs_tr9td4"><a class="cs_txt_tr9td4">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr9td5">한국근현대사</span><div class="cs" id="cs_tr9td5"><a class="cs_txt_tr9td5">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr9td6">디지털역사학<br>데이터분석연습</span><div class="cs" id="cs_tr9td6"><a class="cs_txt_tr9td6">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr9td6">디지털역사학<br>데이터분석연습</span><div class="cs" id="cs_tr9td6"><a class="cs_txt_tr9td6">C</a></div></div></td>
                     <td><a id="tr9td7"></a></td>
                     <td><a id="tr9td8"></a></td>
                 </tr>
                 <tr>
                     <td><div class="mandatory_cont"><span id="tr10td1">서양사입문</span><div class="cs" id="cs_tr10td1"><a class="cs_txt_tr10td1">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr10td2">역사와인물</span><div class="cs" id="cs_tr10td2"><a class="cs_txt_tr10td2">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr10td2">역사와인물</span><div class="cs" id="cs_tr10td2"><a class="cs_txt_tr10td2">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr10td3">동양고중세사</span><div class="cs" id="cs_tr10td3"><a class="cs_txt_tr10td3">C</a></div></div></td>
-                    <td><div class="mandatory_cont"><span id="tr10td4">아시아의역사<br>문화콘텐츠</span><div class="cs" id="cs_tr10td4"><a class="cs_txt_tr10td4">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr10td4">아시아의역사<br>문화콘텐츠</span><div class="cs" id="cs_tr10td4"><a class="cs_txt_tr10td4">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr10td5">서양근현대사</span><div class="cs" id="cs_tr10td5"><a class="cs_txt_tr10td5">C</a></div></div></td>
-                    <td><a id="tr10td6"></a></td>
+                    <td class="addLine"><a id="tr10td6"></a></td>
                     <td><a id="tr10td7"></a></td>
                     <td><a id="tr10td8"></a></td>
                 </tr>
                 <tr>
                     <td><div class="mandatory_cont"><span id="tr11td1">문화콘텐츠학입문</span><div class="cs" id="cs_tr11td1"><a class="cs_txt_tr11td1">C</a></div></div></td>
-                    <td><a id="tr11td2"></a></td>
+                    <td class="addLine"><a id="tr11td2"></a></td>
                     <td><a id="tr11td3"></a></td>
-                    <td><div class="mandatory_cont"><span id="tr11td4">유목민족의<br>역사와문화</span><div class="cs" id="cs_tr11td4"><a class="cs_txt_tr11td4">C</a></div></div></td>
+                    <td class="addLine"><div class="mandatory_cont"><span id="tr11td4">유목민족의<br>역사와문화</span><div class="cs" id="cs_tr11td4"><a class="cs_txt_tr11td4">C</a></div></div></td>
                     <td><div class="mandatory_cont"><span id="tr11td5">중국사상과예술</span><div class="cs" id="cs_tr11td5"><a class="cs_txt_tr11td5">C</a></div></div></td>
-                    <td><a id="tr11td6"></a></td>
+                    <td class="addLine"><a id="tr11td6"></a></td>
                     <td><a id="tr11td7"></a></td>
                     <td><a id="tr11td8"></a></td>
                 </tr>
                 <tr>
                     <td><a id="tr12td1"></a></td>
-                    <td><a id="tr12td2"></a></td>
+                    <td class="addLine"><a id="tr12td2"></a></td>
                     <td><a id="tr12td3"></a></td>
-                    <td><a id="tr12td4"></a></td>
+                    <td class="addLine"><a id="tr12td4"></a></td>
                     <td><div class="mandatory_cont"><span id="tr12td5">일본사상과예술</span><div class="cs" id="cs_tr12td5"><a class="cs_txt_tr12td5">C</a></div></div></td>
-                    <td><a id="tr12td6"></a></td>
+                    <td class="addLine"><a id="tr12td6"></a></td>
                     <td><a id="tr12td7"></a></td>
                     <td><a id="tr12td8"></a></td>
                 </tr>
                 <tr>
-                    <td><a id="tr13td1"></a></td>
-                    <td><a id="tr13td2"></a></td>
-                    <td><a id="tr13td3"></a></td>
-                    <td><a id="tr13td4"></a></td>
+                    <td id="mark_td"><a id="tr13td1"><div class="m_mark">M</div><a class="m_text">: Mandatory</a></a></td>
+                    <td id="mark_td" class="addLine"><a id="tr13td2"><div class="c_mark">C</div><a class="c_text">: Core</a></a></td>
+                    <td id="mark_td"><a id="tr13td3"><div class="s_mark">S</div><a class="s_text">: Support</a></a></td>
+                    <td class="addLine"><a id="tr13td4"></a></td>
                     <td><div class="mandatory_cont"><span id="tr13td5">디지털역사학입문</span><div class="cs" id="cs_tr13td5"><a class="cs_txt_tr13td5">C</a></div></div></td>
-                    <td><a id="tr13td6"></a></td>
+                    <td class="addLine"><a id="tr13td6"></a></td>
                     <td><a id="tr13td7"></a></td>
                     <td><a id="tr13td8"></a></td>
                 </tr>

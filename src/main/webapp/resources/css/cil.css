@@ -52,6 +52,10 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAAXNSR0IArs
     color:#292828;
 }
 
+.addLine{
+    border-right : solid 2px #bebebe;
+}
+
 .cil_table_section table th{
     border-right:none;
     color:#585858;
@@ -176,6 +180,45 @@ span{
 }
 
 /*Hightlight*/
+.m_mark, .c_mark, .s_mark{
+	background:#c7c7c7; 
+	position:relative; 
+	right:-10px;
+	width:25px; 
+	height:25px;
+	border-radius:20px;
+	border : solid 1px rgb(228, 228, 228);
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	text-align:center;
+} 
+
+.m_text{
+	background:none;
+	font-size:15px;
+		position:relative; 
+		top:-22px;
+}
+.c_text{
+	background:none;
+	font-size:15px;
+		position:relative; 
+		top:-22px;
+		right:40px;
+}
+.s_text{
+	background:none;
+	font-size:15px;
+		position:relative; 
+		top:-22px;
+		right:15px;
+}
+
+#mark_td{
+	text-align:right;
+}
+
 .mandatory{
 	background:#c7c7c7; 
 	position:relative; 
