@@ -22,36 +22,3 @@ header{
     padding-top:0px;
 }
 
-.nav_wrap{
-    height:10%;
-    position:absolute;
-    right:0;
-    margin-right:30px;
-    margin-top:6px;
-}
-
-ul{
-    list-style:none;
-    margin:0;
-    padding:0;
-}
-
-li{
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    border: 0;
-    float: left;
-    color:#ebebeb;
-    padding-left:12px;
-}
-
-li:hover{
-    color:#ffd447;
-    cursor:pointer;
-}
-
-.nav{
-    padding-right:0;
-    margin-top:15px;
-}
-

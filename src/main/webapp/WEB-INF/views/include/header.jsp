@@ -9,14 +9,7 @@
 <body>
 	<div class="header_wrap">
     <div class="title_wrap">
-        <a class="title"></a>
-    </div>
-    <div class="nav_wrap">
-        <div class="nav">
-            <ul>
-                <li>CIL</li>
-            </ul>
-        </div>
+        <a class="title" id="title"><img src="${pageContext.request.contextPath}/resources/img/HIL_logo_1.png"></a>
     </div>
 </div>
 </body>
